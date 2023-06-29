@@ -1,0 +1,102 @@
+*{
+    background-color:  #674baf;;
+
+   
+    
+}
+body{
+    margin: 0;
+    position: relative;
+    background: hsl(257, 40%, 49%) url('./images/bg-desktop.svg') no-repeat;
+}
+body .logo{
+    position: absolute;
+    top:50px;
+    left: 40px;
+    width: 200px; /* Ancho del logo */
+    height: auto;
+    
+}
+body h1{
+    position: absolute;
+    top:200px;
+    left: 890px;
+    right: auto;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+body .imgprincipal{
+    position: absolute;
+    top:200px;
+    left: 40px;
+    right: auto;
+}
+body .fondoimg{
+    opacity: 0;
+}
+body p{
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    top:320px;
+    left: 890px;
+    right: 290px;
+}
+body .boton{
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    width: 12%; 
+    height: 8%; 
+    top: 440px;
+    left: 890px;
+    padding: 10px 10px ;
+    background-color: white;
+    color: #A350CB;
+    border-radius: 40px;
+    border: none;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}   
+.boton:active {
+    transform: scale(1.2);
+  }
+body .facebook{
+    position: absolute;
+    top:670px;
+    left: 1150px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 80%;
+    border: 2px solid #fffcfc;
+    padding: 5px;
+}
+    
+body .twiter{
+    position: absolute;
+    top:670px;
+    left: 1200px;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border-radius: 80%;
+    border: 2px solid #fffcfc;
+    padding: 5px;
+}
+body .instagram{
+    position: absolute;
+    top:670px;
+    width: 20px;
+    height: 20px;
+    line-height: 40px;
+    text-align: center;
+    left: 1250px;
+    border-radius: 80%;
+    border: 2px solid #fff8f8;
+    padding: 5px;
+}
